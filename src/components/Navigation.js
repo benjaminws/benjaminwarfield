@@ -1,5 +1,4 @@
 import {h} from 'preact';  /** @jsx h */
-import {Link} from 'preact-router';
 
 export const Navigation = () => (
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -11,22 +10,22 @@ export const Navigation = () => (
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <Link class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" data-toggle="collapse" data-target=".navbar-collapse.in">
           @benjaminws
-        </Link>
+        </a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact"> Contact</a></li>
-          <li><a href="/work">Work</a></li>
+          <li><a href="/about" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+          <li><a href="/contact" data-toggle="collapse" data-target=".navbar-collapse.in"> Contact</a></li>
+          <li><a href="/work" data-toggle="collapse" data-target=".navbar-collapse.in">Work</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://twitter.com/benjaminws"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/benjaminws"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-          <li><a href="https://linkedin.com/in/benjaminwarfield"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-          <li><a href="https://facebook.com/benjaminws"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/benjaminws" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/benjaminws" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="https://linkedin.com/in/benjaminwarfield" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="https://facebook.com/benjaminws" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
