@@ -10,6 +10,13 @@ import {About} from './components/About';
 import {Work} from './components/Work';
 import {Contact} from './components/Contact';
 import {Error} from './components/Error';
+import {Footer} from './components/Footer';
+
+let {pushState} = history;
+history.pushState = (a, b, url) => {
+  pushState.call(history, a, b, url);
+  scrollTo(0, 0);
+};
 
 const App = () => (
   <div>
@@ -23,6 +30,7 @@ const App = () => (
         <Error type='404' default />
       </Router>
     </div>
+    <Footer />
   </div>
 );
 

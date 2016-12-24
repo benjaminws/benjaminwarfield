@@ -4,11 +4,11 @@ body {
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 62.5%;
   color: #727272;
-  background: #f5f1ea;
+  background: #625D5D;
 }
 
 a {
-  color: #6d6968;
+  color: #DD0B1E;
 }
 
 .nav {
@@ -17,7 +17,7 @@ a {
 }
 
 .navbar-brand {
-  color: #a9a9a9 !important;
+  color: #DD0B1E !important;
   font-size: 3.0em !important;
   -webkit-text-shadow: 0 1px 1px rgba(116,121,117,1.00);
   -moz-text-shadow: 0 1px 1px rgba(116,121,117,1.00);
@@ -25,7 +25,7 @@ a {
 }
 
 .nav a {
-  color: #a9a9a9 !important;
+  color: #DD0B1E !important;
   font-size: 1.8em !important;
   -webkit-text-shadow: 0 1px 1px rgba(116,121,117,1.00);
   -moz-text-shadow: 0 1px 1px rgba(116,121,117,1.00);
@@ -41,7 +41,7 @@ a {
   vertical-align: middle;
   line-height: 1.2em;
   font-family: "futura-pt-condensed", sans-serif;
-  color: #6d6968;
+  color: #C6C1C1;
   width: 100%;
   -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
   -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
@@ -55,7 +55,7 @@ a {
   vertical-align: middle;
   line-height: 1.0em;
   font-family: "futura-pt-condensed", sans-serif;
-  color: #6d6968;
+  color: #C6C1C1;
   width: 95%;
   -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
   -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
@@ -63,20 +63,20 @@ a {
 }
 
 .callout a {
-  color: #a9a9a9;
+  color: #DD0B1E;
 }
 
 .callout-sub a {
-  color: #a9a9a9;
+  color: #DD0B1E;
 }
 
 h1 {
-  text-decoration: underline;
-  font-size: 5.6em;
+  border-bottom: 1px solid #C6C1C1;
+  font-size: 5.8em;
   margin-bottom: 0.2em;
   line-height: 1.0;
   font-family: "futura-pt-condensed", sans-serif;
-  color: #6d6968;
+  color: #E8E8ED;
   width: 75%;
   -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
   -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
@@ -88,7 +88,7 @@ h2 {
   margin-bottom: 0.2em;
   line-height: 1.0em;
   font-family: "futura-pt-condensed", sans-serif;
-  color: #6d6968;
+  color: #C6C1C1;
   width: 75%;
   -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
   -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
@@ -106,4 +106,20 @@ h2 {
   padding: 6em 0 0 0;
   margin-bottom: 0;
   min-height: 400px;
+}
+
+.footer {
+  border-top: 1px solid #C6C1C1;
+  color: #727272;
+  -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  font-size: 2.6em;
+}
+
+.footer a {
+  color: #C6C1C1;
+  -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
 }
