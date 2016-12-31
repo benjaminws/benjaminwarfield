@@ -66,6 +66,10 @@ a {
   margin: 1em;
 }
 
+.callout p {
+  margin: 1em;
+}
+
 .callout a {
   color: #DD0B1E;
 }
