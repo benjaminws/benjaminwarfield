@@ -24,7 +24,6 @@ export const Navigation = () => (
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://github.com/benjaminws" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-github fa-lg" aria-hidden="true"></i> GitHub</a></li>
           <li><a href="https://linkedin.com/in/benjaminwarfield" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> LinkedIn</a></li>
-          <li><a href="https://facebook.com/benjaminws" data-toggle="collapse" data-target=".navbar-collapse.in"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> Facebook</a></li>
         </ul>
       </div>
     </div>
