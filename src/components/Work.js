@@ -34,15 +34,12 @@ export const Work = () => (
       <div class='callout-sub'>
       <p>
       I was part of the initial team hired to greenfield a new platform to support the needs of a presidential campaign. I helped build and lead our DevOps team. I was a key engineer in the launch of the campaign website for Hillary Clinton. Our team built and managed a highly scalable infrastructure on Amazon Web Services using modern tools and principles.
-      </p>
-      <p>
+      <br/><br/>
       Being one of the first onboard, I was tasked with designing and building initial iterations of the infrastructure, including our deployment pipeline, configuration management, as well as tooling to support immutable deployments of microservices & front-end web applications. Most of our tooling is built in Python, Golang, Java/Groovy, and React.
-      </p>
-      <p>
+      <br/><br/>
       As a group we are driven to empower developers to be responsible for all aspects of their application, from code on their machine, to deployments, metrics, and dashboards. The tooling we provide allows developers to bootstrap an application and deploy it within minutes, with minimal effort or configuration. Applications are scalable, monitorable, and deployed redundantly by default.
-      </p>
-      <p>
-       Throughout the campaign I was key in supporting the engineering team for Hillary Clinton, who used our tooling extensively. As we grew I assisted in mentoring other engineers on good practices and helped guide them on technology decisions.
+      <br/><br/>
+      Throughout the campaign I was key in supporting the engineering team for Hillary Clinton, who used our tooling extensively. As we grew I assisted in mentoring other engineers on good practices and helped guide them on technology decisions.
       </p>
       </div>
       <div class='callout'>
@@ -55,33 +52,48 @@ export const Work = () => (
         Sr. Systems Engineer @ <a href="https://www.dreamhost.com/">DreamHost</a>
       </div>
       <div class='callout-sub'>
-       <p>As lead infrastructure engineer for the dreamhost.com website I implemented a new deployment strategy utilizing system packages, and source control tagging. I worked to implement a CDN to scale static assets. Subsequently I built tooling to manage the assets, as well as interactions with the CDN APIs.</p>
-       <p>I was also responsible for DreamHosts large scale logging infrastructure, implementing ELK (ElasticSearch Logstash Kibana) before ELK was a thing. This included designing and implementing a new deployment strategy for the cluster.</p>
-       <p>While here I implemented testing and continuous integration of configuration management code, written in Chef, using Test Kitchen and ServerSpec. </p>
+       <p>As lead infrastructure engineer for the dreamhost.com website I implemented a new deployment strategy utilizing system packages, and source control tagging. I worked to implement a CDN to scale static assets. Subsequently I built tooling to manage the assets, as well as interactions with the CDN APIs.
+       <br/><br/>
+       I was also responsible for DreamHosts large scale logging infrastructure, implementing ELK (ElasticSearch Logstash Kibana) before ELK was a thing. This included designing and implementing a new deployment strategy for the cluster.
+       <br/><br/>
+       While here I implemented testing and continuous integration of configuration management code, written in Chef, using Test Kitchen and ServerSpec.
+       </p>
       </div>
       <div class='callout'>
        Software & DevOps Consultant @ <a href="http://the-refinery.io/">Designing Interactive</a>
       </div>
        <div class='callout-sub'>
-       <p>As one of the first hires at this successful design firm, I wrote a lot of web applications, helped to establish standards, and had a lot of face-time with our clients. Our backend applications were largely developed in Ruby on Rails or Sinatra, while our front-end mostly utilized Backbone and Ember. I was a key engineer in making design decisions to best meet client needs.</p>
-       <p>As an early adopter of DevOps principles, I pushed them pretty hard internally and where applicable to client needs. The merits of this approach were recognized and adopted by several of our large clients, and worked well with Designing Interactives design first principles.</p>
+       <p>
+       As one of the first hires at this successful design firm, I wrote a lot of web applications, helped to establish standards, and had a lot of face-time with our clients. Our backend applications were largely developed in Ruby on Rails or Sinatra, while our front-end mostly utilized Backbone and Ember. I was a key engineer in making design decisions to best meet client needs.
+       <br/><br/>
+       As an early adopter of DevOps principles, I pushed them pretty hard internally and where applicable to client needs. The merits of this approach were recognized and adopted by several of our large clients, and worked well with Designing Interactives design first principles.
+       </p>
       </div>
       <div class='callout'>
        DevOps Lead @ <a href="https://web.shootq.com/">Pictage</a>
       </div>
       <div class='callout-sub'>
-       <p>As DevOps lead I was responsible for infrastructure and operations for a newly acquired product, <a href="https://web.shootq.com/">ShootQ</a>.</p>
-       <p>I led a team to coordinate and execute moving the entire infrastructure for the product from a virtualization host, to a company owned data center. I led this same team to execute infrastructure, application, and data work to move all applications from MySQL to PostgreSQL.</p>
-       <p>I designed and implemented configuration management of infrastructure using Chef, and also built an improved deployment pipeline for application code.</p>
-       <p>I worked to integrate with existing Web Operations team tooling and processes, while introducing new tooling and processes to them.</p>
+       <p>
+       As DevOps lead I was responsible for infrastructure and operations for a newly acquired product, <a href="https://web.shootq.com/">ShootQ</a>.
+       <br/><br/>
+       I led a team to coordinate and execute moving the entire infrastructure for the product from a virtualization host, to a company owned data center. I led this same team to execute infrastructure, application, and data work to move all applications from MySQL to PostgreSQL.
+       <br/><br/>
+       I designed and implemented configuration management of infrastructure using Chef, and also built an improved deployment pipeline for application code.
+       <br/><br/>
+       I worked to integrate with existing Web Operations team tooling and processes, while introducing new tooling and processes to them.
+       </p>
       </div>
       <div class='callout'>
        Systems Administrator @ <a href="http://www.americangreetings.com/">American Greetings</a>
       </div>
       <div class='callout-sub'>
-       <p>As System Administrator I was responsible for a number of services, including management of NetApp filers and Falconstor appliances. I was responsible for build, configuration, and maintenance of Linux web servers, application servers, and payment processing nodes. I also worked closely with our cluster of F5 BigIP load balancers, and Content Delivery Networks on Akamai and Level 3.</p>
-       <p>In working tightly with our development teams, I was able to help improve our development environment stability and lower deployment times, assisting with implementing and developing new technology solutions in a more timely manner.</p>
-       <p>I was key in development of new configuration management scripts in Perl/Python/Shell, further scaling and automating the management of our large installation. I also assisted in on-call, networking issues, and hardware installation at remote data centers.</p>
+       <p>
+       As System Administrator I was responsible for a number of services, including management of NetApp filers and Falconstor appliances. I was responsible for build, configuration, and maintenance of Linux web servers, application servers, and payment processing nodes. I also worked closely with our cluster of F5 BigIP load balancers, and Content Delivery Networks on Akamai and Level 3.
+       <br/><br/>
+       In working tightly with our development teams, I was able to help improve our development environment stability and lower deployment times, assisting with implementing and developing new technology solutions in a more timely manner.
+       <br/><br/>
+       I was key in development of new configuration management scripts in Perl/Python/Shell, further scaling and automating the management of our large installation. I also assisted in on-call, networking issues, and hardware installation at remote data centers.
+       </p>
       </div>
     </div>
   </div>
